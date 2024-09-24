@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  background-color: #1e202d;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: white;
+  height: 100%;
+}
+
+.TitleContainer,h1{
+  font-size:48px;
+}
+.TitleContainer, p{
+  font-size:30px;
+  padding-top:30px;
+}
+
+
+.PageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Full viewport height */
+  width: 80%; /* Full viewport width */
+  margin: 0 auto;
+}
+
+.TitleContainer {
+  text-align: center;
+}
+
+.CardsContainer{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  width:100%;
+  padding: 20px;
+  flex-wrap:wrap;
+  align-items: center;
+  gap: 5px;
+
+}
